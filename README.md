@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" />
 </p>
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -36,13 +36,13 @@
 | <img src="https://skillicons.dev/icons?i=github" width="20" /> **GitHub** | Code hosting |
 | <img src="https://skillicons.dev/icons?i=vscode" width="20" /> **VS Code** | Code editor |
 
----
+
 
 ## 📖 About
 
 **Gemini AI Chatbot** is a lightweight command-line chatbot built with Python and the Google Gemini API. It remembers your conversation, so you can ask follow-up questions just like a real chat.
 
----
+
 
 ## ✨ Features
 
@@ -54,7 +54,7 @@
 | 🚪 **Easy Exit** | Type `exit` or press `Ctrl + C` to quit |
 | 🆓 **Free to Use** | Works with the free Gemini API key |
 
----
+
 
 ## 🖥️ Preview
 
@@ -74,7 +74,7 @@ You: exit
 Bot: Goodbye!
 ```
 
----
+
 
 ## 📋 Prerequisites
 
@@ -88,7 +88,6 @@ Check your Python version:
 python --version
 ```
 
----
 
 ## ⚙️ Installation & Setup
 
@@ -132,7 +131,7 @@ python chatbot.py
 
 Now type your question after `You:` and press Enter. 🎉
 
----
+
 
 ## 🔐 Safer Way: Use an Environment Variable (Recommended)
 
@@ -162,7 +161,7 @@ client = genai.Client(
 
 > On Windows, close and reopen the terminal after running `setx`.
 
----
+
 
 ## 💻 Commands
 
@@ -172,7 +171,7 @@ client = genai.Client(
 | `Ctrl + C` | Force stop |
 | Empty Enter | Ignored (asks again) |
 
----
+
 
 ## 🧯 Error Handling
 
@@ -183,7 +182,7 @@ client = genai.Client(
 | `ModuleNotFoundError` | Library not installed | Run `pip install google-genai` |
 | Rate limit / quota | Free tier limit reached | Wait a few minutes |
 
----
+
 
 ## 🏗️ Project Structure
 
@@ -194,7 +193,7 @@ Gemini-Chatbot/
 └── README.md
 ```
 
----
+
 
 ## 🛡️ Security Note
 
@@ -202,15 +201,6 @@ Gemini-Chatbot/
 - ✅ Use environment variables
 - ✅ If your key leaks, delete it from AI Studio and create a new one
 
----
-
-## 👨‍💻 Contributors
-
-| Contributor | Role |
-|---|---|
-| [@akshayjha7](https://github.com/akshayjha7) | Repository Creator |
-
----
 
 <p align="center">
   <strong>🤖 Gemini AI Chatbot</strong>
