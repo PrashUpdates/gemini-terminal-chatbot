@@ -181,22 +181,3 @@ client = genai.Client(
 | `ClientError` | Wrong or expired API key, or bad request | Check your API key and model name |
 | `ModuleNotFoundError` | Library not installed | Run `pip install google-genai` |
 | Rate limit / quota | Free tier limit reached | Wait a few minutes |
-
-
-
-## 🏗️ Project Structure
-
-```
-Gemini-Chatbot/
-│
-├── chatbot.py
-└── README.md
-```
-
-
-
-<p align="center">
-  <strong>🤖 Gemini AI Chatbot</strong>
-  <br/>
-  Made with ❤️ using Python & Google Gemini
-</p>
