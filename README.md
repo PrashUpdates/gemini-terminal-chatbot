@@ -82,7 +82,7 @@ Bot: Goodbye!
 - A Google account (for the free API key)
 - Internet connection
 
-Check Python version:
+Check your Python version:
 
 ```bash
 python --version
@@ -99,7 +99,7 @@ git clone YOUR_REPOSITORY_URL
 cd YOUR_REPOSITORY_NAME
 ```
 
-> Git nahi hai? Seedha code copy karke `chatbot.py` naam ki file mein paste kar lo.
+> Don't have Git? Just copy the code and paste it into a file named `chatbot.py`.
 
 ### 2️⃣ Install the required library
 
@@ -130,13 +130,13 @@ client = genai.Client(
 python chatbot.py
 ```
 
-Ab `You:` ke aage apna sawal likho aur Enter dabao. 🎉
+Now type your question after `You:` and press Enter. 🎉
 
 ---
 
-## 🔐 Safer Way: Use Environment Variable (Recommended)
+## 🔐 Safer Way: Use an Environment Variable (Recommended)
 
-API key ko code mein likhne ki jagah environment variable mein rakho, taaki galti se GitHub pe leak na ho.
+Instead of writing the API key in your code, store it in an environment variable so it never leaks to GitHub by mistake.
 
 **1. Set the key**
 
@@ -160,7 +160,7 @@ client = genai.Client(
 )
 ```
 
-> Windows pe `setx` ke baad terminal band karke dobara kholo.
+> On Windows, close and reopen the terminal after running `setx`.
 
 ---
 
