@@ -195,13 +195,6 @@ Gemini-Chatbot/
 
 
 
-## 🛡️ Security Note
-
-- ❌ Never upload your real API key to GitHub
-- ✅ Use environment variables
-- ✅ If your key leaks, delete it from AI Studio and create a new one
-
-
 <p align="center">
   <strong>🤖 Gemini AI Chatbot</strong>
   <br/>
